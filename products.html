@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PrismKart - Products</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Prism<span>Kart</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#" class='active'>Products</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Layout -->
+  <div class="main-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h3>Filter by Category</h3>
+      <button class="filter-btn" data-category="All">All</button>
+      <button class="filter-btn" data-category="Men">Men</button>
+      <button class="filter-btn" data-category="Women">Women</button>
+      <button class="filter-btn" data-category="Accessories">Accessories</button>
+      <button id="clearBtn" class="filter-btn clear-btn">Clear Filters</button>
+
+      <h3>Sort by Price</h3>
+      <select id="sortSelect">
+        <option value="default">Select</option>
+        <option value="low-high">Low → High</option>
+        <option value="high-low">High → Low</option>
+      </select>
+
+      <!-- Cart Section -->
+      <h3><img src="https://img.icons8.com/material-outlined/24/FFD700/shopping-cart--v1.png" alt="Cart" class="cart-icon" />My Cart <span id="cart-count">( 0 )</span></h3>
+      <div class="cart-container">
+        
+      </div>
+      <p class="cart-total">Total: ₹0</p>
+      <a href="checkout.html" class="btn checkout-btn">Go to Checkout</a>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content-area">
+      <input type="text" id="searchInput" placeholder="Search products..." />
+      <div id="productGrid" class="product-grid">
+        
+      </div>
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Contact us: contact@prismkart.com | 📍 24, Mall Road, Chennai, India</p>
+    <p>Follow us:
+      <a href="#">Instagram</a> |
+      <a href="#">Facebook</a> |
+      <a href="#">Twitter</a>
+    </p>
+    <p>&copy; 2025 PrismKart. All rights reserved.</p>
+  </footer>
+
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="script.js"></script>
+</body>
+</html>

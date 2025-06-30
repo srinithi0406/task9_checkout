@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PrismKart - Products</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Prism<span>Kart</span></div>
+    <h3>Checkout</h3>
+  </header>
+
+   <!-- Main-layout -->
+  <div class="checkout-main">
+     <!-- Product details -->
+    <section class="items-section" >
+      <div id="checkout-items">
+      
+      </div>
+
+      <!-- Shipping details -->
+      <h2 class="section-title">Shipping Details</h2>
+      <form id="shipping-form" class="shipping-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" required pattern="[0-9]{10}" maxlength="10" title="Enter a valid 10-digit mobile number" />
+
+        <label for="address">Address:</label>
+        <textarea id="address" rows="3" required></textarea>
+        <div class="form-buttons">
+          <button type="submit" id="place-order">Place Order</button>
+          <a href="products.html" class="btn back-btn">← Back to Shopping</a>
+        </div>
+      </form>
+    </section>
+
+     <!-- Sidebar summary -->
+    <aside class="sidebar-summary">
+      <div class="summary-box">
+        <h3>Cart Summary</h3>
+        <p>Subtotal: ₹<span id="subtotal">0</span></p>
+        <p>Shipping: ₹<span id="shipping">50</span></p>
+        <p class="free-shipping" id="freeBadge" style="display: none;"> Free Shipping Applied!</p>
+        <h4>Total: ₹<span id="final-total">0</span></h4>
+        
+      </div>
+    </aside>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="checkout.js"></script>
+</body>
+</html>
