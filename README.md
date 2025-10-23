@@ -29,7 +29,7 @@ A responsive, multi-featured **shopping UI** built with `HTML`, `CSS`, and `Java
 ---
 
 ## Folder Structure
-
+```
 .
 ├──  products.html          # Product listing page
 ├──  checkout.html          # Checkout & Shipping form
@@ -37,7 +37,8 @@ A responsive, multi-featured **shopping UI** built with `HTML`, `CSS`, and `Java
 ├──  checkout.js            # JavaScript file for checkout page
 ├──  style.css              # Styling for all pages
 ├──  images /
-     ├──  all images     
+     ├──  all images
+```
 
 ##  How to Run
 
