@@ -28,7 +28,34 @@ A responsive, multi-featured **shopping UI** built with `HTML`, `CSS`, and `Java
 
 ---
 
+
+## Screenshots
+
+### Product Listing Page
+![Products Page](images/products_sc.png)
+
+### Category & Price Filters
+![Filters](images/filters.png)
+
+### Search, Sort & Filter
+![Sort and Filter](images/sort_filter.png)
+
+### Add to Cart Action
+![Add to Cart](images/cart_add.png)
+
+### Checkout Page with cart summary
+![Checkout Summary](images/checkout_sc.png)
+
+### Checkout Form
+![Checkout Form](images/checkout_form.png)
+
+### Order Submission Confirmation
+![Order Submitted](images/submit_sc.png)
+
+---
+
 ## Folder Structure
+
 ```
 .
 ├──  products.html          # Product listing page
@@ -38,6 +65,7 @@ A responsive, multi-featured **shopping UI** built with `HTML`, `CSS`, and `Java
 ├──  style.css              # Styling for all pages
 ├──  images /
      ├──  all images
+
 ```
 
 ##  How to Run
